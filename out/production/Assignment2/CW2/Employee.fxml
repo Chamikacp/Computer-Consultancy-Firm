@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="493.0" prefWidth="688.0" style="-fx-background-color: cyan;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CW2.Controller">
+   <children>
+      <VBox layoutX="199.0" layoutY="92.0" prefHeight="262.0" prefWidth="239.0" spacing="50.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#addemployee" prefHeight="37.0" prefWidth="239.0" text="Add" />
+            <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#viewemployee" prefHeight="36.0" prefWidth="239.0" text="View" />
+            <Button layoutX="10.0" layoutY="41.0" mnemonicParsing="false" onAction="#updateemployee" prefHeight="40.0" prefWidth="239.0" text="Update" />
+            <Button layoutX="10.0" layoutY="41.0" mnemonicParsing="false" onAction="#deleteemployee" prefHeight="40.0" prefWidth="239.0" text="Delete" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
